@@ -1,0 +1,7 @@
+{
+	"name": "@chinchilla-software/ng-spinner",
+	"private": false,
+	"version": "1.0.2",
+	"description": "AngularJS basic wrapper for an SVG loader/spinner with progress feedback",
+	"repository": "https://github.com/Chinchilla-Software-Com/ngSpinner"
+}
