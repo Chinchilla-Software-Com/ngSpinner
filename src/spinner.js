@@ -1,15 +1,4 @@
-﻿angular.module("ngSpinner", []);
-
-angular
-	.module('ngSpinner')
-	.directive('loader', spinner);
-
-angular
-	.module('ngSpinner')
-	.directive('spinner', spinner);
-
-/* @ngInject */
-var spinner = function () {
+﻿var spinner = function () {
 
 	return {
 		replace: false,
@@ -46,3 +35,10 @@ var spinner = function () {
 		}
 	}
 };
+
+angular.module("ngSpinner", []);
+
+angular
+	.module('ngSpinner')
+	.directive('loader', spinner)
+	.directive('spinner', spinner);
